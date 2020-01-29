@@ -1,0 +1,4 @@
+#ifndef _SIMULATOR_STRATEGY_
+#define _SIMULATOR_STRATEGY_
+
+#endif

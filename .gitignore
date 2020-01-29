@@ -1,0 +1,10 @@
+# .DS_Store on MacOS
+.DS_Store
+
+# builds folder
+builds
+target
+experimentation
+
+# ignore library files
+*.a
