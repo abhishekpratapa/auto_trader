@@ -13,6 +13,7 @@ float PricingTemplate::previous() {
   return this->get_price();
 }
 
+// TODO: templatize current
 float PricingTemplate::current() { return this->get_price(); }
 
 }  // namespace pricing

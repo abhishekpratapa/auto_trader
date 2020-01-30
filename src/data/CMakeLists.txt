@@ -1,7 +1,7 @@
 project(AutoTrader)
 
 add_library(ATData
-  bitmex_data_structures.cpp
+  bitmex_data.cpp
 )
 
 add_dependencies(ATData

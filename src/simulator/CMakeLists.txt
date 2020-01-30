@@ -6,6 +6,8 @@ add_library(ATSimulator
 
 add_dependencies(ATSimulator
   ATData
+  ATOrder
+  ATPricing
   ATStrategy
   ATUtils
 )

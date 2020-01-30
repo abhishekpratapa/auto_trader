@@ -13,7 +13,7 @@
 #include <boost/assert.hpp>
 #include <boost/filesystem.hpp>
 
-#include <data/bitmex_data_structures.hpp>
+#include <data/bitmex_data.hpp>
 
 #ifdef TEST_FILE_PATH
   static std::string root_test_path = TEST_FILE_PATH;

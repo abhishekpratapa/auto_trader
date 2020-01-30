@@ -1,10 +1,11 @@
 project(AutoTrader)
 
 add_library(ATStrategy
-  strategy.cpp
+  template.cpp
 )
 
 add_dependencies(ATStrategy
   ATData
+  ATOrder
   ATUtils
 )

@@ -1,4 +1,4 @@
-#include <data/bitmex_data_structures.hpp>
+#include <data/bitmex_data.hpp>
 
 #include <stdio.h>
 #include <stdlib.h>

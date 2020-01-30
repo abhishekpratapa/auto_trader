@@ -7,16 +7,17 @@
 namespace auto_trader {
 namespace data {
 
-struct DataStructure {
-  DataStructure() = default;
-  virtual ~DataStructure() = default;
+struct DataTemplate {
+  DataTemplate() = default;
+  virtual ~DataTemplate() = default;
 
   virtual void save(const std::string& path) = 0;
 
   // TODO: templatize this function to force all base classes to implement a
   // static load
-  static std::unique_ptr<DataStructure> loadJSON(const std::string& path);
-  static std::unique_ptr<DataStructure> load(const std::string& path);
+  static std::unique_ptr<DataTemplate> loadJSON(
+      const std::string& path);
+  static std::unique_ptr<DataTemplate> load(const std::string& path);
 };
 
 }  // namespace data

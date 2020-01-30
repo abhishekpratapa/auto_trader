@@ -29,7 +29,7 @@ struct CandleStick_ {
   std::time_t timestamp;
 };
 
-struct BitmexCandleStick : DataStructure {
+struct BitmexCandleStick : DataTemplate {
   std::vector<CandleStick_> data;
 
   void save(const std::string& path) override;

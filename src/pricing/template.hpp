@@ -2,6 +2,7 @@
 #define _PRICING_TEMPLATE_
 
 #include <stdlib.h>
+#include <data/template.hpp>
 
 namespace auto_trader {
 namespace pricing {
@@ -15,6 +16,7 @@ class PricingTemplate {
   float previous();
   float current();
 
+  // TODO: plumb through DataTemplate instead of float
   virtual float get_price() = 0;
 
  protected:
